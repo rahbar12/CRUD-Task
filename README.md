@@ -14,9 +14,9 @@ GET - /api/book/:id : Get book details by id. where :id represents the id of the
 \
 PATCH - /api/book/:id : Update book details by id. where :id represents the id of the book.\
     Body - JSON: {\
-        title: string, required,\
-        author: string, required,\
-        summary: string, required,\
+        title: string, optional,\
+        author: string, optional,\
+        summary: string, optional,\
     }\
 \
 DELETE - /api/book/:id : Delete book by id. where :id represents the id of the book.\
