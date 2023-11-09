@@ -27,6 +27,7 @@ Install the dependencies using command `npm i`.\
 Start the server with one of the following command:\
 Windows: `npm run api-dev-win`\
 Linux: `npm run api-dev`\
+Update the .env.local file if there's any issue regarding port or db.\
 
 ## Server Deployment
 Connect to the server using command `ssh <user>@<host-ip>`, use your user and host ip to connect to the server and enter password.\
